@@ -47,13 +47,22 @@ border: none;
 color: #fff;
 text-transform: uppercase;
 border: 1px solid #F49A39;
+padding: .5rem 1rem;
 }
 .header .navbar .navbar-nav .nav-link.btn-primary:hover{
     color: #F49A39;
 }
 .btn-primary{
-    background: #F49A39;  
-    color: #fff;
+    border: 1px solid #F49A39;
+    background: #fff;
+    color: #F49A39;
+    height: 40px;
+    padding: 0px 20px;
+}
+.btn-primary:hover{
+    color:#fff;
+    background: #F49A39;
+    border: 1px solid #F49A39;
 }
 .btn-secondary{
     color: #F49A39;
@@ -108,3 +117,108 @@ border: 1px solid #F49A39;
     max-width: 1320px;
     margin: auto;
  }
+ .service-img{
+     width: 100%;
+ }
+ .head-text{
+    color: #F49A39;
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+    position: relative;
+ }
+ .our-services {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    /* border: none; */
+    border-bottom: 2px dotted pink;
+}
+.head-text::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: #00B4CF;
+    bottom: -4px;
+    margin-left: -100px;
+}
+.slider-item-inner {
+    width: 90%;
+    margin: auto;
+}
+.slider-item-inner h3{
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+.slider-item-inner a{
+color: #2d2d2d;
+outline: none;
+}
+.slider-item-inner a:hover, .slider-item-inner a:active{
+outline: none;
+text-decoration: none;
+}
+.item-img{
+    overflow: hidden;
+}
+.item-img img{
+    height: 280px;
+    object-fit: cover;
+    transition: 0.8s;
+}
+.slider-item-inner:hover .item-img img{ transform: scale(1.2); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2);
+}
+.slider-item-inner p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 20px;
+}
+.coming-projects{
+/* background: #f2f2f2; */
+}
+.coming-projects-contact{
+
+}
+
+.pro-img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.project-info {
+    position: relative;
+}
+.pro-content{
+    position: absolute;
+    background: #fff;
+    right: 0;
+    padding: 2rem;
+    top: 0;
+    width: 350px;
+}
+
+
+
+.parallax {
+    background-image: url('../assets/c_1-bg.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coming-projects-2{
+    min-height:600px;
+    position: relative;
+}
+.coming-projects-2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    top:0;
+}

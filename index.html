@@ -1,110 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Crystal Constructions and Developers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" rel="stylesheet"/>
-<link href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
 </head>
+
 <body>
-<header class="header">
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-    <img src="assets/main/cc_logo.png" class="header-logo" alt="Crystal Constructions Logo" />
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/main/cc_logo.png" class="header-logo" alt="Crystal Constructions Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"> About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link btn btn-primary" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</header>
-<div class="content">
-  <section class="home-banner">
-        <div class="overlay-banner"></div>
-        <video class="banner-video" autoplay loop muted>
-          <source src="assets/hero_video.mp4"  type="video/mp4">
-        </video>
-        <div class="banner-text-section">
-          <div>
-            <h1>Civil Works | Building Developers</h1>
-          </div>
-         
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <section class="home-banner">
+      <div class="overlay-banner"></div>
+      <video class="banner-video" autoplay loop muted>
+        <source src="assets/hero_video.mp4" type="video/mp4">
+      </video>
+      <div class="banner-text-section">
+        <div>
+          <h1>Civil Works | Building Developers</h1>
         </div>
-  </section>
-  <section class="owr-services content-width">
-    <div class="services-home-slider">
-     <div class="slider-item">
-      
-     </div>
-    </div>
-    <script>
-    $('.services-home-slider').slick({
-      dots: true,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-    });
-</script>
-  </section>
-      
-</div>
-<footer>
 
-</footer>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      </div>
+    </section>
+    <section class="our-services content-width">
+      <h2 class="head-text text-center">Our Services</h2>
+      <div class="services-home-slider">
+
+        <div class="slider-item">
+          <div class="slider-item-inner">
+            <a href="#">
+              <div class="item-img"><img src="assets/c_1 (1).jpg" class="service-img"></div>
+              <h3>Industrial Buildings</h3>
+              <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                previewing layouts and visual mockups.</p>
+              <button class="btn-primary">View More..</button>
+            </a>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item-inner">
+            <a href="#">
+              <div class="item-img"><img src="assets/c_1 (2).jpg" class="service-img"></div>
+              <h3>Commercial Buildings</h3>
+              <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                previewing layouts and visual mockups.</p>
+              <button class="btn-primary">View More..</button>
+            </a>
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-item-inner">
+            <a href="#">
+              <div class="item-img"><img src="assets/c_1 (4).jpg" class="service-img"></div>
+              <h3> Residential High Rise Buildings</h3>
+              <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                previewing layouts and visual mockups.</p>
+              <button class="btn-primary">View More..</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        $('.services-home-slider').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          margin: 20,
+          responsive: [{
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      </script>
+    </section>
+    <section class="coming-projects">
+      <h2 class="head-text text-center">Our Projects</h2>
+      <div class="content-width coming-projects-contact">
+        <div class="main-projects">
+          <div class="project-info">
+            <img class="pro-img" src="assets/c_1 (11).jpg">
+            <div class="pro-content">
+              <h3>Constuction</h3>
+              <h4>Hilix Compund Villa </h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+              <ul class="list-unstyled">
+                <li><i class="far fa-user"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-info">
+
+          </div>
+        </div>
+      </div>
+      <script>
+        $('.main-projects').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          margin: 20,
+          responsive: [{
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
+      </script>
+    </section>
+    <section class="coming-projects-2 parallax">
+
+    </section>
+
+  </div>
+  <footer>
+
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
