@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto',sans-serif;
+    color:#2d2d2d;
+}
+/* Header Styles Start */
+.header-logo {
+    height: 80px;
+}
+.header .navbar{
+    max-width: 1320px;
+    margin: auto;
+    padding: 0px;
+    color:#2d2d2d;
+    padding-top: 10px;
+}
+.header .navbar .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.header .navbar .navbar-collapse{
+}
+.header .navbar .li.nav-item{
+
+}
+.header {
+    /* border-bottom: 2px solid #FF44C4; */
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+.header .navbar .navbar-nav .active .nav-link{
+    
+}
+
+/* Header Styles End */
+/*buttons */
+.header .navbar .navbar-nav .nav-link.btn-primary{
+background: none;
+border: none;
+color: #fff;
+text-transform: uppercase;
+border: 1px solid #F49A39;
+}
+.header .navbar .navbar-nav .nav-link.btn-primary:hover{
+    color: #F49A39;
+}
+.btn-primary{
+    background: #F49A39;  
+    color: #fff;
+}
+.btn-secondary{
+    color: #F49A39;
+    border: 1px solid #F49A39;
+}
+.primary-color{
+    color: #F49A39;
+}
+.secondary-color{
+    color: #00B4CF;
+}
+.primary-line-color{
+    border-color: #FF44C4;
+}
+
+/* */
+.home-banner{
+    position: relative;
+    height: 100vh;
+}
+.banner-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.overlay-banner{
+    position: absolute;
+    height: 100%;
+    background: #000;
+    width: 100%;
+    opacity: 0.6;
+}
+.banner-text-section {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 100%;
+}
+    .banner-text-section  h1{
+        font-size: 5vw;
+        text-align: center;
+        color: #F49A39;
+        font-weight: 600;
+ }
+
+ /* Owr Services */
+ .content-width{
+    max-width: 1320px;
+    margin: auto;
+ }
