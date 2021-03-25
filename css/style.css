@@ -130,7 +130,9 @@ padding: .5rem 1rem;
     margin: 50px auto;
     padding-bottom: 50px;
     /* border: none; */
-    border-bottom: 2px dotted pink;
+    /* border-bottom: 2px dotted pink; */
+    background: #f8f9fa;
+    padding-top: 50px;
 }
 .head-text::after{
     content: "";
@@ -178,7 +180,7 @@ text-decoration: none;
 /* background: #f2f2f2; */
 }
 .coming-projects-contact{
-
+    margin-bottom:150px;
 }
 
 .pro-img{
@@ -188,16 +190,76 @@ text-decoration: none;
 }
 .project-info {
     position: relative;
+    padding-bottom: 100px;
+
 }
 .pro-content{
+ 
     position: absolute;
     background: #fff;
     right: 0;
     padding: 2rem;
-    top: 0;
     width: 350px;
+    bottom: 30px;
+    box-shadow: 2px 4px 7px #f49a392e;
+    margin-bottom: -90px;
+
+}
+.pro-content ul{
+display: flex;
+}
+.pro-content ul li:nth-child(1){
+    flex:1;
+}
+.pro-content ul li i{
+    margin-right: 5px;
+}
+.project-info-inner{
+    width: 92%;
+    margin: auto;
+    position: relative;
+}
+.pro-content p{
+    color: #2d2d2d;
+}
+.pro-content h4{
+    color: #03043f;
+}
+.pro-content h3{
+    font-size: 1.2rem;
+    color: #F49A39;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.pro-content ul li{
+    color: #F49A39;
 }
 
+.info-sec {
+    text-align: center;
+}
+.info-sec h2{
+    color: #F49A39;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.info-sec h3{
+    color:#03043f;
+}
+.info-sec hr{
+    margin: 20px auto;
+    width: 100px;
+    border-top: 2px solid #F49A39;
+}
+.info-sec p{
+    color:#2d2d2d;
+}
+.company-info-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 .parallax {
@@ -213,7 +275,7 @@ text-decoration: none;
     min-height:600px;
     position: relative;
 }
-.coming-projects-2::after{
+.overlay-parallx{
     content: "";
     position: absolute;
     width: 100%;
@@ -221,4 +283,21 @@ text-decoration: none;
     background: #000;
     opacity: 0.6;
     top:0;
+    left: 0;
+}
+
+.free-support {
+    position: relative;
+    z-index: 10;
+}
+.free-support-text h2{
+color: #fff;
+}
+.free-support-text p{
+    color:#fff;
+}
+.free-support {
+    position: relative;
+    z-index: 10;
+    padding: 70px 2%;
 }
