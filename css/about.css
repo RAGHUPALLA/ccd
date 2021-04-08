@@ -1,0 +1,140 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto',sans-serif;
+    color:#2d2d2d;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+a:hover{
+    outline: none;
+    text-decoration: none;
+}
+/* Header Styles Start */
+.header-logo {
+    height: 80px;
+}
+.header .navbar{
+    max-width: 1320px;
+    margin: auto;
+    padding: 0px;
+    color:#2d2d2d;
+    padding-top: 0px;
+}
+.header .navbar .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: #2d2d2d;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.header .navbar .navbar-collapse{
+}
+.header .navbar .li.nav-item{
+
+}
+.header {
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+}
+.header .navbar .navbar-nav .active .nav-link{
+    
+}
+
+/* Header Styles End */
+/*buttons */
+.header .navbar .navbar-nav .nav-link.btn-primary{
+background: none;
+border: none;
+color: #F49A39;
+text-transform: uppercase;
+border: 1px solid #F49A39;
+padding: .5rem 1rem;
+}
+.header .navbar .navbar-nav .nav-link.btn-primary:hover{
+    color: #F49A39;
+}
+.btn-primary{
+    border: 1px solid #F49A39;
+    background: #fff;
+    color: #F49A39;
+    height: 40px;
+    padding: 0px 20px;
+}
+.btn-primary:hover{
+    color:#fff;
+    background: #F49A39;
+    border: 1px solid #F49A39;
+}
+.btn-secondary{
+    color: #F49A39;
+    border: 1px solid #F49A39;
+}
+.primary-color{
+    color: #F49A39;
+}
+.secondary-color{
+    color: #00B4CF;
+}
+.primary-line-color{
+    border-color: #FF44C4;
+}
+
+
+/* About Styles */
+.top-link-banner{
+    position: relative;
+}
+.sub-banner-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.content-width{
+    max-width: 1320px;
+    margin: auto;
+ }
+ .sub-banner-text{
+    padding-top: 15px;
+ }
+ .sub-banner-text ul li {
+    position: relative;
+    margin-right: 25px !important;
+    font-size: 1.1rem;
+}
+.sub-banner-text ul li:nth-last-child(1)::after{
+display: none;
+}
+ .sub-banner-text ul li::after{
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #F49A39;
+    border-right: 1px solid #F49A39;
+    top: 9px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    right: -15px;
+}
+.sub-banner-text ul li a{
+    color: #ddd;
+}
+.heading-row h2{
+    display: initial;
+    font-size: 2.1rem;
+    color: #03043f;
+    text-transform: uppercase;
+}
+.profile-btn{
+    border-radius: 6px;
+}

@@ -1,0 +1,566 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto',sans-serif;
+    color:#2d2d2d;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+a:hover{
+    outline: none;
+    text-decoration: none;
+}
+/* Header Styles Start */
+.header-logo {
+    height: 80px;
+}
+.header .navbar{
+    max-width: 1320px;
+    margin: auto;
+    padding: 0px;
+    color:#2d2d2d;
+    padding-top: 0px;
+}
+.header .navbar .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: #2d2d2d;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.header .navbar .navbar-collapse{
+}
+.header .navbar .li.nav-item{
+
+}
+.header {
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+}
+.header .navbar .navbar-nav .active .nav-link{
+    
+}
+
+/* Header Styles End */
+/*buttons */
+.header .navbar .navbar-nav .nav-link.btn-primary{
+background: none;
+border: none;
+color: #F49A39;
+text-transform: uppercase;
+border: 1px solid #F49A39;
+padding: .5rem 1rem;
+}
+.header .navbar .navbar-nav .nav-link.btn-primary:hover{
+    color: #F49A39;
+}
+.btn-primary{
+    border: 1px solid #F49A39;
+    background: #fff;
+    color: #F49A39;
+    height: 40px;
+    padding: 0px 20px;
+}
+.btn-primary:hover{
+    color:#fff;
+    background: #F49A39;
+    border: 1px solid #F49A39;
+}
+.btn-secondary{
+    color: #F49A39;
+    border: 1px solid #F49A39;
+}
+.primary-color{
+    color: #F49A39;
+}
+.secondary-color{
+    color: #00B4CF;
+}
+.primary-line-color{
+    border-color: #FF44C4;
+}
+
+
+/* About Styles */
+.top-link-banner{
+    position: relative;
+}
+.sub-banner-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.content-width{
+    max-width: 1320px;
+    margin: auto;
+ }
+ .sub-banner-text{
+    padding-top: 15px;
+ }
+ .sub-banner-text ul li {
+    position: relative;
+    margin-right: 25px !important;
+    font-size: 1.1rem;
+}
+.sub-banner-text ul li:nth-last-child(1)::after{
+display: none;
+}
+ .sub-banner-text ul li::after{
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #F49A39;
+    border-right: 1px solid #F49A39;
+    top: 9px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    right: -15px;
+}
+.sub-banner-text ul li a{
+    color: #ddd;
+}
+.heading-row h2{
+    display: initial;
+    font-size: 2.1rem;
+    color: #03043f;
+    text-transform: uppercase;
+}
+.profile-btn{
+    margin-right: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+
+/* profile styles */
+.company-profile{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+.profile-navbar{
+
+}
+.logo-link img{
+    height: 100px;
+}
+.menu-button{
+    float: right;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    background: none;
+    border: none;
+    margin-top: 20px;
+
+}
+.menu-button span{
+    height: 2px;
+    width: 30px;
+    background: #ccc;
+    content: "";
+    position: absolute;
+    left: 0;
+}
+.menu-button span:nth-child(2){
+    top: 10px;
+}
+.menu-button span:nth-child(3){
+    top: 30px;
+}
+.bg-img {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(
+207deg
+);
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    /* height: 700px; */
+    opacity: 0.5;
+}
+body{
+    overflow-x: hidden;
+}
+.company-profile-text{
+    max-width: 300px;
+    margin-left: auto;
+    text-align: right;
+}
+.company-profile-text h2{
+    color: #F49A39;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+.company-profile-text h3{
+    color: #03043f;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.company-profile-text hr{
+    color: #F49A39;
+    border-top: 4px solid #F49A39;
+    width: 190px;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.company-profile-text h4{
+    color: #03043f;
+    font-style:italic;
+    font-size: 1.4rem;
+}
+.company-about h2{
+    color: #03043f;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0px;
+    position: relative;
+}
+.company-about {
+    margin-top: -100px;
+}
+
+.company-about h2::after{
+    content: "";
+    color: #F49A39;
+    /* border-top: 4px solid #F49A39; */
+    position: absolute;
+    margin-left: 0px;
+    width: 50px;
+    height: 20px;
+    /* background: #F49A39; */
+    z-index: -1;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 38px solid transparent;
+    border-top: 40px solid #F49A39;
+    top: 100%;
+}
+.page-info{
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+}
+.page-info p{
+
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+}
+.page-info p span{
+    color: #F49A39;
+}
+.width-para{
+    width: 80%;
+}
+.c2-img {
+    width: 100%;
+}
+.row-mid{
+    margin-top: 50px;
+}
+.profile-services{
+
+}
+.profile-services h3{
+    color: #03043f;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.profile-services ul{
+
+}
+.profile-services ul li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.profile-services ul li::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: #F49A39;
+    left: 0;
+    top: 45%;
+}
+.profile-footer {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0px;
+    border-top: 1px solid #ccc;
+}
+.profile-footer a{
+    color: #03043f;
+    
+    font-size: 0.8rem;
+}
+.profile-footer span{
+    color: #03043f;
+    text-align: right;
+    float: right;
+    font-size: 0.8rem;
+}
+.ongoing-projects{
+    margin-top: 50px;
+}
+.ongoing-projects h3{
+    color: #03043f;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.ongoing-projects h4{
+    color: #03043f;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.ongoing-projects-inner {
+    padding: 2rem 3rem;
+    box-shadow: 0px 1px 4px #cccccc8f;
+    border-radius: 5px;
+    margin-top: 20px;
+    min-height: 225px;
+}
+.ongoing-projects h5{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.ongoing-projects h5 b{
+}
+.ongoing-projects h6{
+}
+.ongoing-projects p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.ongoing-projects p i{
+    color: #F49A39;
+    margin-right: 5px;
+}
+.profile-slider{
+
+}
+.profile-slider .item img{
+
+}
+.profile-slider .slick-slide img {
+    display: block;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+.profiles-info{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.profiles-info h3{
+    color: #03043f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.gallery-sec{
+    color: #03043f;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.gallery-sec h3{
+    color: #03043f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.sec-bg{
+    margin: auto;
+    max-width: 1320px;
+    /* background: #f8f9fa; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.profiles-info h4{
+    color: #F49A39;
+    margin-top: 20px;
+}
+.profiles-info h5{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.gallery-slider img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.project-details-item img{
+    width: 94%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.project-details .ongoing-projects-inner {
+    padding: 2rem 3rem;
+    box-shadow: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    min-height: 350px;
+    border: 1px solid #ccc;
+    margin-bottom: 60px;
+}
+
+.project-details {
+    margin-top: 30px;
+}
+.project-details .slick-dots li button:before {
+    font-size: 12px;
+}
+.project-details .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color:#F49A39;
+}
+.slick-dots li button:before {
+    font-size: 12px !important;
+}
+ .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color:#F49A39 !important;
+}
+
+.table-information h2{
+    color: #03043f;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.table-information h3{
+    color: #03043f;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.table-information .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.table-information.content-width {
+    margin-top: 100px;
+}
+.table-responsive thead{
+    background: #F49A39;
+    color: #fff;
+}
+
+
+
+@media(min-width:1240px) and (max-width:1500px){
+    .company-profile {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .content-width {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+@media (max-width:767px){
+    .company-about {
+        margin-top: 50px;
+    }
+    .company-profile {
+        
+        padding: 15px;
+    }
+    .company-profile-text {
+       
+        margin-top: 50px;
+    }
+    .page-info p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .page-info {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .company-about h2::after{
+        display: none;
+    }
+    .c2-img {
+        height: 250px;
+        object-fit: contain;
+    }
+    .profile-footer {
+      
+        text-align: center;
+    }
+    .profile-footer span{
+        text-align: center;
+    }
+    .bg-img {
+      
+        transform: rotate( 
+    315deg
+     );
+       
+    }
+    body, html{
+        overflow-x: hidden;
+    }
+    .project-details .ongoing-projects-inner {
+        min-height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .project-details-item img {
+        width: 100%;
+        height: 300px;
+    }
+    .table-information.content-width {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .gallery-sec {
+        
+        padding: 15px;
+    }
+    .sec-bg {
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .profile-btn{
+        display: none;
+    }
+}

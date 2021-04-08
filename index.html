@@ -16,12 +16,13 @@
   <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
   <script src="js/main.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header-sroll">
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
         <img src="assets/main/cc_logo.png" class="header-logo" alt="Crystal Constructions Logo" />
@@ -34,20 +35,20 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="services.html">Services</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects </a>
+            <a class="nav-link" href="projects.html">Projects </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> About Us</a>
+            <a class="nav-link" href="about.html"> About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-primary" href="#">Contact</a>
+            <a class="nav-link btn btn-primary" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -247,6 +248,69 @@
         });
       </script>
     </section>
+
+    <section>
+      <div class="content-width home-clients-content">
+        <h2 class="head-text text-center">Our Clients</h2>
+        <div class="clients-slider">
+          <div class="client-img">
+            <img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2019/01/Mejuri-Modern-Jewelry-Logo-Styles.png" class="c-img">
+          </div>
+          <div class="client-img">
+            <img src="https://www.digitalludhiana.com/img/services/graphic-designing/logo-%26-brands.png" class="c-img">
+          </div>
+          <div class="client-img">
+            <img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2019/01/Mejuri-Modern-Jewelry-Logo-Styles.png" class="c-img">
+          </div>
+          <div class="client-img">
+            <img src="https://cdn.razorpay.com/logos/EjkrPDYavKu0VB_large.png" class="c-img">
+          </div>
+          <div class="client-img">
+            <img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2019/01/Mejuri-Modern-Jewelry-Logo-Styles.png" class="c-img">
+          </div>
+          <div class="client-img">
+            <img src="https://icon-library.com/images/icon-png-logos/icon-png-logos-5.jpg" class="c-img">
+          </div>
+        </div>
+      </div>
+
+      <script>
+        $('.clients-slider').slick({
+          dots: true,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          margin: 20,
+          responsive: [{
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            }
+          ]
+        });
+      </script>
+    </section>
+
+
     <section class="coming-projects-2 parallax">
       <div class="overlay-parallx"></div>
       <div class="content-width free-support">
@@ -333,4 +397,14 @@
     </div>
   </footer>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $(window).scroll(function () {
+    var sc = $(window).scrollTop()
+    if (sc > 120) {
+        $("#header-sroll").addClass("fixed-header")
+    } else {
+        $("#header-sroll").removeClass("fixed-header")
+    }
+});
+  </script>
 </body>
